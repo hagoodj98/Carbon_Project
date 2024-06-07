@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+ <!--   <script src="js/simple.js"></script>-->
+ <body>
+  <div class="container" >
+    <div>
+      <div >
+        <header >
+          <a href="#" class="headerlogo"> 
+            <h3 >Houston's Carbon Footprint</h3>
+            <img src="images/Mask group (5).svg" salt="white foot steps" class="footerprintsvg noshowwhitelogo">
+            <img src="images/carbon-footprint.png" salt="white foot steps" class="footerprintsvg noshowblacklogo">
+          </a>
+          <input type="checkbox" id="menu-bar">
+          <label for="menu-bar">
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          </label>
+          <nav class="navbar">
+            <ul>
+              <li><a href="index.html" class="active">Home</a>
+                <ul>
+                  <li><a href="carboncomplexity.html">Carbon</a></li>
+                  <li><a href="conversation.html">Conversations</a></li>
+                  <li><a href="actionplan.html">Climate Action Plan</a></li>
+                  <li><a href="global.html">How it affects Earth?</a></li>
+                  <li><a href="goody.html">Interactive</a></li>
+                  <li><a href="specific.html">Form</a></li>
+                </ul>
+              </li>
+              <li><a href="people.html" class="active">Houston City</a>
+                <ul>
+                  <li><a href="culture.html">Houston's Weather</a></li>
+                  <li><a href="dislikes.html">Reducing Carbon Footprint</a></li>
+                  <li><a href="interest.html">Causes of High<br>Carbon Rates</a></li>
+                  <li><a href="music.html">Scientists opinions?</a></li>
+                </ul>
+              </li>
+              <li><a href="images.html" class="active">Gallery</a>
+                <ul>
+                  <li><a href="promotions.html">Promotions</a></li>
+                  <li><a href="carboneffectimages.html">Carbon Damages</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+    </div>
+    <div id="carboneffectimagesimage">
+
+    </div>
+      <div class="containerforimages">
+        <figure class="centeredphoto">
+          <img src="images/5LVUUKWA3O2SKFLDSA7CUBGVPY.jpg" alt="dried up ground">
+          <p class="photocredit">Photo Credit: Robert Lee</p>
+        </figure>
+        <figure class="centeredphoto">
+          <img src="images/648f7c7d2db248fb92ece57dcdd9b595.jpg" alt="melting icebergs">
+          <p class="photocredit">Photo Credit: Sheri Lamb</p>
+        </figure>
+        <figure class="centeredphoto">
+          <img src="images/462392837.jpg" alt="forest fire">
+          <p class="photocredit">Photo Credit: Getty Images</p>
+        </figure>
+        <figure class="centeredphoto">
+          <img src="images/greeceoxygen.jpg" alt="dead fish">
+          <p class="photocredit">Photo Credit: Giannis Papanikos</p>
+        </figure>
+        <figure class="centeredphoto">
+          <img src="images/UN055819.jpg" alt="girl standing on ice">
+          <p class="photocredit">Photo Credit: Sokhin</p>
+        </figure>
+        <figure class="centeredphoto">
+          <img src="images/paris_climate002.jpg" alt="smoke stacks dispersing chemicals in air">
+          <p class="photocredit">Photo Credit: Unknown</p>
+        </figure>
+      </div>
+
+      <footer>
+        <div class="footernav">
+          <div>
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="carboncomplexity.html">Carbon</a></li>
+              <li><a href="conversation.html">Conversations</a></li>
+              <li><a href="actionplan.html">Climate Action Plan</a></li>
+              <li><a href="global.html">How it affects Earth?</a></li>
+              <li><a href="goody.html">Interactive</a></li>
+              <li><a href="specific.html">Form</a></li>   
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="people.html" class="active">Houston City</a></li>
+              <li><a href="culture.html">Houston's Weather</a></li>
+              <li><a href="dislikes.html">Reducing Carbon<br>Footprint</a></li>
+              <li><a href="interest.html">Causes of High<br>Carbon Rates</a></li>
+              <li><a href="music.html">Scientists opinions?</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="images.html" class="active">Gallery</a></li>
+              <li><a href="promotions.html">Promotions</a></li>
+              <li><a href="carboneffectimages.html">Carbon Damages</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerheaderandform">
+          <div class="footertitleandphoto">
+            <img src="images/Mask group (5).svg" alt="white foot steps" class="footerprintsvg">
+            <h4 class="footertitle">Houston's Carbon Footprint</h4>
+          </div>
+          <form class="footerform" action="#">
+            <input type="text"  placeholder="Enter your Email" name="email" />
+            <button type="submit" class="button1" >Save the World</button>
+          </form>
+          <div clas="footertext">
+            <p style="color: white;">© 2020 Inc. All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+  </div>
+<!--link to the CSS files for this menu type-->
+<!--link to the JavaScript files (hoverIntent is optional)-->
+  <script src="js/jquery.js"></script>
+  <script src="js/hoverIntent.js"></script>
+  <script src="js/superfish.js"></script>
+  
+  <script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function(){
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    }
+  </script>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function(){
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0)
+      });
+      var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.querySelector("header").style.top = "0";
+    } else {
+      document.querySelector("header").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  
+    </script>
+<!--initialise Superfish-->
+  <script>
+    jQuery(document).ready(function(){
+      jQuery('ul.sf-menu').superfish();
+    });
+    $(document).ready(function(){
+      $( "a.scrollLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+      });
+    });
+
+  </script>
+</body>
+</html>
