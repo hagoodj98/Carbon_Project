@@ -191,7 +191,7 @@ header .navbar ul li a:hover{
 
 .container1{
 background-image: url("../images/photo-1542984704-f6db18b7a464.jpeg");
-background-size: cover;
+background-size: contain;
 background-repeat: no-repeat;
 }
 
@@ -217,7 +217,7 @@ transform: rotate(45deg);
 }
 
 h2{
-  font-size: 24px;
+  font-size: $font-h2-size;
 }
 
 .item {
@@ -600,7 +600,7 @@ color: white;
 padding: 100px;
 font-family: $font-headline;
 //text-decoration: underline;
-font-size: 24px;
+font-size: $font-sectionheads-size-mobile;
 }
 .imagesheaderpromotion{
   background-color: white;
