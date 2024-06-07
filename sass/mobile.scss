@@ -597,7 +597,7 @@ background-color: #36454F;
  background-color: #36454F;
 font-weight: bolder;
 color: white;
-padding: 100px;
+padding: 60px;
 font-family: $font-headline;
 //text-decoration: underline;
 font-size: $font-sectionheads-size-mobile;
@@ -612,9 +612,9 @@ font-size: $font-sectionheads-size-mobile;
 }
 
 .sectionheaderleftside{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  //display: flex;
+ // align-items: center;
+  //justify-content: center;
 }
 article{
 padding: 30px;
