@@ -46,7 +46,10 @@ header.sticky .noshowblacklogo {
 }
 
 .noshowblacklogo{
-display: none;
+//display: none;
+}
+.noshowwhitelogo{
+  display: none;
 }
 
 header{
@@ -127,9 +130,8 @@ header .navbar ul li:hover > ul{
 .hamburger .line {
 width: 30px; 
 height: 3px;
-background-color: white;
+background-color: black;
 margin: 6px 0;
-
 }
 
 
@@ -332,18 +334,19 @@ line-height: 18px;
 /****************paragraphs**************/
 .openquote  p{
 // width:  109px;
-font-size: 20px;
-width: 80%;
+font-size: 25px;
+//width: 80%;
+
 font-family: $font-open-quote;
 font-weight: 300;
 //position: absolute; 
 //margin: 100px 180px;
-color: white;
+color: black;
 }
 .openquote{
 //  margin:  auto;
 display: flex; 
-
+padding: 10px;
 flex-direction: column; 
 align-items: start;
 }
@@ -354,20 +357,23 @@ font-size: 18px;
 }
 
 .headerandonesentence{
+  padding-top: 50px;
 display: flex;
 flex-direction: column;
-height: 100svh;
-background-image: url("../images/co2-levels.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-padding: 30px;
+height: 100vh;
+justify-content: center;
+align-items: start;
+//background-image: url("../images/co2-levels.jpg");
+////background-size: cover;
+//background-position: center;
+//background-repeat: no-repeat;
+//background-attachment: fixed;
+//padding: 30px;
 }
 
 
 .headerandonesentence div{
-height: 37%;
+//height: 37%;
 }
 
 #promotionsimage{

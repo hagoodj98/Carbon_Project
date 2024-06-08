@@ -816,17 +816,73 @@ margin-top: 50px;
     /////////////////////////////////////////
 }
 
+@media (min-width:650px){
+  //.imgforbackground{
+   // display: none;
+   // }
+   
+    .headerandonesentence{
+      padding-top: 130px;
+      display: flex;
+      flex-direction: column;
+     // height: 100vh;
+      position: relative;
+      justify-content: center;
+      align-items: start;
+     // background-image: url("../images/co2-levels.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    //  padding: 30px;
+      }
+      
+      
+      .headerandonesentence div{
+      height: 47%;
+      }
+      
+      .openquote{
+        //  margin:  auto;
+        display: flex; 
+        padding: 30px;
+      position: absolute;
+        //padding: 50px;
+        flex-direction: column; 
+        //align-items: start;
+        }
+        
+        .openquote  p{
+          // width:  109px;
+          font-size: 28px;
+          
+          font-family: $font-open-quote;
+          font-weight: 300;
+          //position: absolute; 
+          //margin: 100px 180px;
+          color: white;
+          }
+}
+
 @media (min-width: 768px){
   .openquote  p{
     // width:  109px;
     font-size: 30px;
-    width: 80%;
+  
     font-family: $font-open-quote;
     font-weight: 300;
     //position: absolute; 
     //margin: 100px 180px;
     color: white;
     }
+    .openquote{
+      //  margin:  auto;
+      display: flex; 
+      padding: 50px;
+      flex-direction: column; 
+      align-items: start;
+      }
+      
     .footerprintsvg{
       max-width: 30px;
       
@@ -835,12 +891,46 @@ margin-top: 50px;
     
     }
 
+.imgforbackground{
+display: none;
+}
+.headerandonesentence{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: start;
+  background-image: url("../images/co2-levels.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 30px;
+  }
+  
+  
+  .headerandonesentence div{
+  height: 37%;
+  }
+  
+
 .sectionheaderleftside{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.hamburger .line {
+  //width: 30px; 
+  //height: 3px;
+  background-color: white;
+  //margin: 6px 0;
+  }
+  .noshowblacklogo{
+    display: none;
+}
+.noshowwhitelogo{
+  display: inline;
+}
 }
 
 @media (min-width: 1024px) {
