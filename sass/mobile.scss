@@ -45,9 +45,7 @@ header.sticky .noshowblacklogo {
   display: inline;
 }
 
-.noshowblacklogo{
-//display: none;
-}
+
 .noshowwhitelogo{
   display: none;
 }
@@ -360,7 +358,7 @@ font-size: 18px;
   padding-top: 50px;
 display: flex;
 flex-direction: column;
-height: 100vh;
+height: 100svh;
 justify-content: center;
 align-items: start;
 //background-image: url("../images/co2-levels.jpg");
