@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Global Effects</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.min.css">
     <script src="js/jquery35.js"></script>
  <!--   <script src="js/simple.js"></script>-->
  <body>
   <div class="container" >
-    <div>
+    <div class="headerandonesentence"  id="globalimage">
+      <img src="images/Untitled (15).png" class="imgforbackground" alt="">
       <div >
         <header >
-          <a href="#" class="headerlogo"> 
+          <a href="index.html" class="headerlogo"> 
             <h3 >Houston's Carbon Footprint</h3>
             <img src="images/Mask group (5).svg" salt="white foot steps" class="footerprintsvg noshowwhitelogo">
             <img src="images/carbon-footprint.png" salt="white foot steps" class="footerprintsvg noshowblacklogo">
@@ -56,9 +57,14 @@
           </nav>
         </header>
       </div>
-  
+      <div  class="centeredtitleandbutton" >
+        <p> Global Effects</p>
+        <a href="#anchor5" class="scrollLink"><button type="submit" class="button button1" id="landingbutton" ><span>See The Devastation</span></button>
+        </a>
+      </div>
     </div>
-    <div id="globalimage">
+    <div id="anchor5">
+
     </div>
     <div class="wrapstorytextbody">
      
@@ -182,7 +188,7 @@
     if (prevScrollpos > currentScrollPos) {
       document.querySelector("header").style.top = "0";
     } else {
-      document.querySelector("header").style.top = "-100px";
+      document.querySelector("header").style.top = "-150px";
     }
     prevScrollpos = currentScrollPos;
   }

@@ -348,12 +348,26 @@ padding: 10px;
 flex-direction: column; 
 align-items: start;
 }
-
+.centeredtitleandbutton{
+  display: flex; 
+  width: 100%;
+  flex-direction: column; 
+  align-items: center;
+}
+.centeredtitleandbutton p{
+  // width:  109px;
+font-size: 25px;
+//width: 80%;
+font-family: $font-open-quote;
+font-weight: 300;
+//position: absolute; 
+//margin: 100px 180px;
+color: black;
+}
 p{
 line-height: 2em;
 font-size: 18px;
 }
-
 .headerandonesentence{
   padding-top: 50px;
 display: flex;
@@ -368,141 +382,140 @@ align-items: start;
 //background-attachment: fixed;
 //padding: 30px;
 }
-
-
 .headerandonesentence div{
 //height: 37%;
 }
 
 #promotionsimage{
-background-image: url('../images/environmental_sciences02.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-filter: brightness(50%);
-height: 100vh;
+//background-image: url('../images/environmental_sciences02.jpg');
+//background-size: cover;
+//background-repeat: no-repeat;
+//background-position: center;
+//background-attachment: fixed;
+//filter: brightness(50%);
+height: 100svh;
 //border: 2px solid red;
 }
 #interestimage{
-background-image: url('../images/global-warming.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-height: 100vh;
+//background-image: url('../images/global-warming.jpg');
+//background-size: cover;
+//background-repeat: no-repeat;
+//background-position: center;
+//background-attachment: fixed;
+height: 100svh;
 //border: 2px solid red;
 }
 #musicimage{
-background-image: url('../images/103025.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-filter: brightness(50%);
-background-position: center;
-background-attachment: fixed;
-height: 100vh;
+//background-image: url('../images/103025.jpg');
+//background-size: cover;
+//background-repeat: no-repeat;
+//filter: brightness(50%);
+//background-position: center;
+//background-attachment: fixed;
+height: 100svh;
 //border: 2px solid red;
 }
 #carboncomplexity{
-background-image: url("../images/EmissionsIndustrial-Complex_OberhausenGermany2017_LukasSchulzeGetty_web.jpg");
+//background-image: url("../images/EmissionsIndustrial-Complex_OberhausenGermany2017_LukasSchulzeGetty_web.jpg");
 
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-height: 100vh;
+//background-size: cover;
+//background-repeat: no-repeat;
+//background-position: center;
+//background-attachment: fixed;
+height: 100svh;
 //border: 2px solid red;
 }
 #conversationimage{
-background-image: url("../images/trump_environment_ticker_nationalgeographic_1926130.jpg");
+//background-image: url("../images/trump_environment_ticker_nationalgeographic_1926130.jpg");
 
-background-size: cover;
+/*background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 #actionplanimage{
-background-image: url("../images/rawImage (1).jpg");
-background-size: cover;
+//background-image: url("../images/rawImage (1).jpg");
+/*background-size: cover;
 background-repeat: no-repeat;
 filter: brightness(50%);
 background-position: center;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 #specificimage{
-background-image: url("../images/environmental.jpg");
+//background-image: url("../images/environmental.jpg");
 
-background-size: cover;
+/*background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 #peopleimage{
-background-image: url("../images/267695_original.jpg");
+//background-image: url("../images/267695_original.jpg");
 
-background-size: cover;
+/*background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 #cultureimage{
-background-image: url("../images/photo-1415473655046-e32ca170859f.jpeg");
+//background-image: url("../images/photo-1415473655046-e32ca170859f.jpeg");
 
-background-size: cover;
+/*background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 #disliesimage{
-background-image: url("../images/181009-german-power-plant-ew-946a_3a8cb6532a691d7ce04064d09c1dac80.jpg");
-background-size: cover;
+//background-image: url("../images/181009-german-power-plant-ew-946a_3a8cb6532a691d7ce04064d09c1dac80.jpg");
+/*background-size: cover;
 background-repeat: no-repeat;
 background-position: center bottom;
 filter: brightness(70%);
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 #imagesimage{
-background-image: url("../images/216491-1600x1067-Carbon-footprint.jpg");
-background-size: cover;
+//background-image: url("../images/216491-1600x1067-Carbon-footprint.jpg");
+/*background-size: cover;
 background-repeat: no-repeat;
 filter: brightness(50%);
 background-position: center;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 #carboneffectimagesimage{
-background-image: url("../images/file-20170526-6415-1uij00z.jpg");
-background-size: cover;
+//background-image: url("../images/file-20170526-6415-1uij00z.jpg");
+/*background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
 
 #globalimage{
-  background-image: url('../images/photo-1465917566611-efba2904dd8a.jpeg');
-  background-size: cover;
+  //background-image: url('../images/photo-1465917566611-efba2904dd8a.jpeg');
+ /* background-size: cover;
 background-repeat: no-repeat;
 background-position: top;
-background-attachment: fixed;
-height: 100vh;
+background-attachment: fixed;*/
+height: 100svh;
 //border: 2px solid red;
 }
-  
+
+
 .wrapstorytextbody{
   display: flex;
   // /margin: 30px;
@@ -671,6 +684,7 @@ background-color: black;
 .footertitleandsvg{
   display: flex;
 }
+
 .footertitleandsvg div{
   display: flex;
   flex-direction: row-reverse;
@@ -749,7 +763,7 @@ cursor: pointer;
   flex-direction: row-reverse;
   align-items: center;
   padding: 20px;
-  justify-content: center;
+  justify-content: space-around;
 }
 .button1,.button2,.button3,.button4,.button5,.button6,.button7 {
 color: white; 

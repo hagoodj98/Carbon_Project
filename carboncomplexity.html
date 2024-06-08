@@ -3,16 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Carbon</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.min.css">
  <!--   <script src="js/simple.js"></script>-->
  <body>
   <div class="container" >
-    <div>
-      <div >
-        <header >
-          <a href="#" class="headerlogo"> 
+    <div class="headerandonesentence"  id="carboncomplexity">
+      <img src="images/Untitled (21).png" class="imgforbackground" alt="">
+      <div>
+        <header>
+         
+          <a href="index.html" class="headerlogo"> 
             <h3 >Houston's Carbon Footprint</h3>
             <img src="images/Mask group (5).svg" salt="white foot steps" class="footerprintsvg noshowwhitelogo">
             <img src="images/carbon-footprint.png" salt="white foot steps" class="footerprintsvg noshowblacklogo">
@@ -55,10 +57,15 @@
           </nav>
         </header>
       </div>
+      <div class="centeredtitleandbutton" >
+        <p>Carbon </p>
+        <a href="#anchor2" class="scrollLink"><button type="submit" class="button button1"><span> What Carbon Is?</span></button>
+        </a>
+      </div>
     </div>
-    <div id="carboncomplexity">
+   <div id="anchor2">
 
-    </div>
+   </div>
     <div class="wrapstorytextbody">
      
       <section>
@@ -177,7 +184,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.querySelector("header").style.top = "0";
   } else {
-    document.querySelector("header").style.top = "-100px";
+    document.querySelector("header").style.top = "-150px";
   }
   prevScrollpos = currentScrollPos;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Houston Culture</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
@@ -13,10 +13,11 @@
  <!--   <script src="js/simple.js"></script>-->
  <body>
   <div class="container" >
-    <div  >
+    <div  class="headerandonesentence"  id="cultureimage">
+      <img src="images/Untitled (16).png" class="imgforbackground" alt="">
       <div >
         <header >
-          <a href="#" class="headerlogo"> 
+          <a href="index.html" class="headerlogo"> 
             <h3 >Houston's Carbon Footprint</h3>
             <img src="images/Mask group (5).svg" salt="white foot steps" class="footerprintsvg noshowwhitelogo">
             <img src="images/carbon-footprint.png" salt="white foot steps" class="footerprintsvg noshowblacklogo">
@@ -59,9 +60,14 @@
           </nav>
         </header>
       </div>
+      <div  class="centeredtitleandbutton" >
+        <p> Houston People</p>
+        <a href="#anchor8" class="scrollLink"><button type="submit" class="button button1" id="landingbutton" ><span>Learn About The People</span></button>
+        </a>
+      </div>
     </div>
-    <div id="cultureimage">
-     
+    <div id="anchor8">
+
     </div>
     <div class="wrapstorytextbody">
    
@@ -177,7 +183,7 @@
     if (prevScrollpos > currentScrollPos) {
       document.querySelector("header").style.top = "0";
     } else {
-      document.querySelector("header").style.top = "-100px";
+      document.querySelector("header").style.top = "-150px";
     }
     prevScrollpos = currentScrollPos;
   }

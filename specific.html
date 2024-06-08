@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Donation</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.min.css">
  <!--   <script src="js/simple.js"></script>-->
  <body id="homebackground">
   <div class="container">
-    <div >
+    <div class="headerandonesentence"  id="specificimage">
+      <img src="images/Untitled (19).png" class="imgforbackground" alt="">
       <div >
         <header >
-          <a href="#" class="headerlogo"> 
-            <h3 >Houston's Carbon Footprint</h3>
+          <a href="index.html" class="headerlogo"> 
+            <h3>Houston's Carbon Footprint</h3>
             <img src="images/Mask group (5).svg" salt="white foot steps" class="footerprintsvg noshowwhitelogo">
             <img src="images/carbon-footprint.png" salt="white foot steps" class="footerprintsvg noshowblacklogo">
           </a>
@@ -55,9 +56,14 @@
           </nav>
         </header>
       </div>
+      <div  class="centeredtitleandbutton">
+        <p>Donate</p>
+        <a href="#anchor6" class="scrollLink"><button type="submit" class="button button1" id="landingbutton" ><span>How Can You Help!</span></button>
+        </a>
+      </div>
     </div>
-    <div id="specificimage">
-      
+    <div id="anchor6">
+
     </div>
     <div class="centeredsection">
       <section >
@@ -225,7 +231,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.querySelector("header").style.top = "0";
   } else {
-    document.querySelector("header").style.top = "-100px";
+    document.querySelector("header").style.top = "-150px";
   }
   prevScrollpos = currentScrollPos;
 }
